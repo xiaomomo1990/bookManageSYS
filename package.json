@@ -1,0 +1,36 @@
+{
+  "name": "book_manage_sys",
+  "version": "1.0.0",
+  "description": "richinfo book manage system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon lib/app.js --exec babel-node --env=dev",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaomomo1990/bookManageSYS.git"
+  },
+  "author": "back",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaomomo1990/bookManageSYS/issues"
+  },
+  "homepage": "https://github.com/xiaomomo1990/bookManageSYS#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "mongoose": "^5.3.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.8"
+  }
+}
