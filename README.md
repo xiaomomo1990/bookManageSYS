@@ -1,2 +1,2 @@
 # bookManageSYS
-richinfo manage system
+manage system
